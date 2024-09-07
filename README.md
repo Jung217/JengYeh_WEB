@@ -19,9 +19,13 @@ A textbook to teach students at JENG YEH elementary school in Kinmen.
 | 12   | CSS Flex(佈局)                  |
 | 13   | 成果發表                       |
 
+## 編輯器
+- [blocklyhtml](http://blocklyhtml.zgtm.de/)
+
 ## 參考資料
 - [HTML](https://jung217.github.io/wp110b//homework/HTML/NOTE1.0.html)
 - [CSS](https://jung217.github.io/wp110b//homework/HTML/NOTE2.0.html)
+- [W3School](https://www.w3schools.com/)
 
 ## 成果參考
 * [簡志融的個人網站1](https://jung217.github.io/AiMade_WebPages/)
