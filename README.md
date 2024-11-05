@@ -22,6 +22,16 @@ A textbook to teach students at JENG YEH elementary school in Kinmen.
 ## 編輯器
 - [blocklyhtml](http://blocklyhtml.zgtm.de/)
 
+## 簡易上課流程
+1. 登入GitHub(通常他們不記得密碼，到**金斗雲**(學校Gmail)看)
+2. 下載**編輯器用的檔案**
+3. 編輯檔案
+4. 儲存**編輯器檔案**、**html檔**
+5. 上傳回GitHub
+
+## 注意事項
+務必幫他們把帳密寄一份到他們的信箱
+
 ## 參考資料
 - [HTML](https://jung217.github.io/wp110b//homework/HTML/NOTE1.0.html)
 - [CSS](https://jung217.github.io/wp110b//homework/HTML/NOTE2.0.html)
