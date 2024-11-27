@@ -5,21 +5,30 @@
     <title>簡志融的網站</title>
     <style>
       @keyframes anforh2 {
-      0% { color: red; }
-      20% { color: orange; }
-      40% { color: #ffccoo; }
-      60% { color: green; }
-      80% { color: blue; }
-      100% { color: purple; }
+          0% { color: red; }
+          20% { color: orange; }
+          40% { color: #ffccoo; }
+          60% { color: green; }
+          80% { color: blue; }
+          100% { color: purple; }
       }
       .title{
-      animation-name: anforh2;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
+          animation-name: anforh2;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
       }
       body {
-      border: 10px ridge;
-      padding: 20px;
+          border: 10px ridge;
+          padding: 20px;
+      }
+      @keyframes anforph {
+          from{border-radius: 4px;}
+          to{border-radius: 40px;}
+      }
+      .anph1{
+          animation-name: anforph;
+          animation-duration: 1.5s;
+          animation-iteration-count: infinite;
       }
     </style>
   </head>
@@ -27,7 +36,7 @@
     <div style="color: #ffffff;text-align: center;">
       <h1 class='title'>簡志融的網站</h1>
       <hr>
-      <img src="https://raw.githubusercontent.com/Jung217/JengYeh_WEB/refs/heads/main/public/317228.jpg" alt="PNG">
+      <img class="anph1" src="https://raw.githubusercontent.com/Jung217/JengYeh_WEB/refs/heads/main/public/317228.jpg" alt="PNG">
     </div>
     <div style="color: #ffffff;">
       <hr>
