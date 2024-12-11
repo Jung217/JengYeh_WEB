@@ -38,10 +38,38 @@
           animation-duration: 1s;
           animation-iteration-count: infinite;
       }
+      .navbar {
+      background-color: #333;
+      padding: 10px 20px;
+      }
+    
+    .nav1 {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+      }
+    
+    .nav1 a {
+      text-decoration: none;
+      color: white;
+      padding: 8px 15px;
+      }
+    
+    .nav1 a:hover {
+      background-color: #575757;
+      border-radius: 10px;
+      }
     </style>
   </head>
   <body style="background-color: #666600;">
     <div style="color: #ffffff;text-align: center;">
+      <nav class="navbar">
+        <ul class="nav1">
+            <li><a href="#home">主頁</a></li>
+             <li><a href="#information">個人消息</a></li>
+           <li><a href="#message">訪客留言區</a></li>
+      </ul>
+  </nav>    
       <marquee width="auto" behavior="scroll"  bgcolor="#000000" size="1000" direction="left" align="middle" style="font-size: 2vw;">
         網頁的作用是用來傳遞資訊、展示內容和提供服務。它可以幫助個人或企業分享新聞、知識、產品資訊等，同時也是品牌宣傳和電子商務的平台。網頁還能提供互動功能，例如線上購物、遠端學習或社交交流，讓人們更方便地獲取資訊並完成各種需求。
       </marquee>
