@@ -71,7 +71,8 @@
       </ul>
   </nav>    
       <marquee width="auto" behavior="scroll"  bgcolor="#000000" size="1000" direction="left" align="middle" style="font-size: 2vw;">
-        網頁的作用是用來傳遞資訊、展示內容和提供服務。它可以幫助個人或企業分享新聞、知識、產品資訊等，同時也是品牌宣傳和電子商務的平台。網頁還能提供互動功能，例如線上購物、遠端學習或社交交流，讓人們更方便地獲取資訊並完成各種需求。
+        <div id="timeDisplay" style="font-size: auto; color: #000000;">
+        </div>
       </marquee>
       <h1 class='title'>簡志融的網站</h1>
       <hr>
@@ -147,4 +148,10 @@
       <source src="https://github.com/Jung217/JengYeh_WEB/blob/main/public/meow.mp3" type="audio/mp3">
     </audio>
   </body>
+  <script>
+      setInterval(() => {
+          const now = new Date();
+          document.getElementById("timeDisplay").innerText = "網頁的作用是用來傳遞資訊、展示內容和提供服務。它可以幫助個人或企業分享新聞、知識、產品資訊等，同時也是品牌宣傳和電子商務的平台。網頁還能提供互動功能，例如線上購物、遠端學習或社交交流，讓人們更方便地獲取資訊並完成各種需求。 現在時間: " + now.toLocaleTimeString();
+      }, 1000);
+  </script>
 </html>
