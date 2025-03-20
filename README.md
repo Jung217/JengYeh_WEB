@@ -1,5 +1,5 @@
 # JengYeh_WEB
-A textbook to teach students at JENG YEH elementary school in Kinmen.
+A textbook to teach students about web at JENG YEH elementary school in Kinmen.
 
 ## 週次與授課內容
 
